@@ -32,7 +32,7 @@
         <div id="site-header">
           <img src="site-pic.jpg" id="sitePic"/>
           <h3 id="greetings">Hello there!</h3>
-          <p class="tagline">My name is Radek and this is an overview of my recent projects.<br><br>I am on a constant search for exciting challenges in front-end development and new learning possibilities.
+          <p class="tagline">My name is Radek and this is an overview of my recent projects.<br><br>I am on a constant search for exciting challenges in web design and front-end development as well as for new learning possibilities.
             <!-- I offer my programming skills, expertise in project management and ability to communicate successfully beyond different cultural and professional backgrounds.</p> -->
         </div>
 
