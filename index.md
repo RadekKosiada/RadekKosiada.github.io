@@ -33,7 +33,31 @@
           <img src="site-pic.jpg" id="sitePic"/>
           <h3 id="greetings">Hello there!</h3>
           <p class="tagline">My name is Radek and this is an overview of my recent projects.<br><br>I am on a constant search for exciting challenges in web design and front-end development as well as for new learning possibilities.
-            <!-- I offer my programming skills, expertise in project management and ability to communicate successfully beyond different cultural and professional backgrounds.</p> -->
+            <ul>
+            <span style="font-weight:bold">Skills:</span>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>Bootstrap 4</li>
+            <li>React</li>
+          <br>
+            <span style="font-weight:bold">Tools:</span>
+            <li>Git</li>
+            <li>Adobe Photoshop</li>
+          </ul>
+    
+        <div id="copyright"><span style="font-weight: bold">Drop me a line!</span><br><a href="mailto:kosiadar@gmail.com">kosiadar@gmail.com</a></div>
+        <ul class="social-icons">
+        <div style="font-weight: bold">Or follow me</div>
+          <!-- <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+          <li class="linkedIn"><a href="https:linkedin.com/in/radoslawkosiada" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+          <li class="twitter"><a href="https://twitter.com/RadekKosiada" target="_blank"><i class="fa fa-twitter"></i></a></li>
+          <li class="instagram"><a href="https://www.instagram.com/radokosiada/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          <!-- <li class="deviantart"><a href="#"><i class="fa fa-deviantart"></i></a></li> -->
+          <!-- <li class="vimeo"><a href="#"><i class="fa fa-vimeo"></i></a></li> -->
+        </ul>	   
+	   
         </div>
 
         <!-- <nav id="site-navigation" class="widget widget_nav_menu widget_list">
@@ -58,18 +82,9 @@
             <li><a data-filter=".typography" href="index.html">Typography</a></li>
           </ul>
         </nav> -->
-
-        <div id="copyright"><span style="font-weight: bold">Drop me a line!</span><br><a href="mailto:kosiadar@gmail.com">kosiadar@gmail.com</a></div>
-        <ul class="social-icons">
-        <div style="font-weight: bold">Or follow me</div>
-          <!-- <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-          <li class="linkedIn"><a href="https:linkedin.com/in/radoslawkosiada" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-          <li class="twitter"><a href="https://twitter.com/RadekKosiada" target="_blank"><i class="fa fa-twitter"></i></a></li>
-          <li class="instagram"><a href="https://www.instagram.com/radokosiada/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-          <!-- <li class="deviantart"><a href="#"><i class="fa fa-deviantart"></i></a></li> -->
-          <!-- <li class="vimeo"><a href="#"><i class="fa fa-vimeo"></i></a></li> -->
-        </ul>
+	
       </aside>
+      
       <!-- END: Global Sidebar -->
 
       <!-- BEGIN: Primary Content -->
