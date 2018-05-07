@@ -90,6 +90,16 @@
       <!-- BEGIN: Primary Content -->
       <section id="primary-content">
         <div id="portfolio-grid">
+	
+	<!-- 6. Project -->
+           <article class="entry portfolio illustration icons">
+              <div class="wrapper">
+                <a class="entry-media"><img src="InstantViewer.gif" alt="Portfolio React Project"></a>
+                <div class="entry-desc">
+                  <h3><a href="https://radekkosiada.github.io/react-viewer/" target="_blank">React Project - Video Viewer</a></h3> <span class="taxonomy"></span> </div>
+              </div>
+            </article>
+	
           <!-- 1. Project -->
           <article class="entry portfolio photoshop print-design">
             <div class="wrapper">
@@ -135,7 +145,7 @@
             <div class="wrapper">
               <a class="entry-media"><img src="2.jpg" alt="Portfolio Entry # 6"></a>
               <div class="entry-desc">
-                <h3>React Project</a></h3> <span class="taxonomy">coming soon</span> </div>
+                <h3>Another React Project</a></h3> <span class="taxonomy">in progress</span> </div>
             </div>
           </article>
 
