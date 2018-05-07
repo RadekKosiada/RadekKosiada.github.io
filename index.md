@@ -91,16 +91,16 @@
       <section id="primary-content">
         <div id="portfolio-grid">
 	
-	<!-- 6. Project -->
-           <article class="entry portfolio illustration icons">
+	 <!-- 1. Project -->
+          <article class="entry portfolio illustration icons">
               <div class="wrapper">
                 <a class="entry-media"href="https://radekkosiada.github.io/react-viewer/" target="_blank"><img src="InstantViewer.gif" alt="Portfolio React Project"></a>
                 <div class="entry-desc">
                   <h3><a href="https://radekkosiada.github.io/react-viewer/" target="_blank">React Project - Video Viewer</a></h3> <span class="taxonomy"></span> </div>
               </div>
             </article>	
-	
-          <!-- 1. Project -->
+        
+          <!-- 2. Project -->
           <article class="entry portfolio photoshop print-design">
             <div class="wrapper">
               <a class="entry-media" href="https://radekkosiada.github.io/weather-app/WeatherApp" target="_blank"><img src="WeatherAppGif2.gif" alt="Portfolio Weather App"></a>
@@ -108,7 +108,7 @@
                 <h3><a href="https://radekkosiada.github.io/weather-app/WeatherApp" target="_blank">Current Weather App</a></h3> <span class="taxonomy"></span></div>
             </div>
           </article>
-          <!-- 2. Project -->
+          <!-- 3. Project -->
           <article class="entry portfolio illustration icons">
             <div class="wrapper">
               <a class="entry-media" href="https://radekkosiada.github.io/QuoteMachine/QuoteMachine" target="_blank"><img src="QuoteMachineGif2.gif" alt="Portfolio Quote Machine"></a>
@@ -116,7 +116,7 @@
                 <h3><a href="https://radekkosiada.github.io/QuoteMachine/QuoteMachine" target="_blank">Random Quote Machine</a></h3> <span class="taxonomy"></span> </div>
             </div>
           </article>
-          <!-- 3. Project -->
+          <!-- 4. Project -->
           <article class="entry portfolio typography illustration">
             <div class="wrapper">
               <a class="entry-media" href="https://radekkosiada.github.io/PingPongGame/PingPong.html" target="_blank"><img src="PingPongGif.gif" alt="Portfolio Ping Pong Game"></a>
@@ -124,39 +124,34 @@
                 <h3><a href="https://radekkosiada.github.io/PingPongGame/PingPong.html" target="_blank">Ping Pong Game</a></h3> <span class="taxonomy"></span> </div>
             </div>
           </article>
-          <!-- 4. Project -->
+          <!-- 5. Project -->
           <article class="entry portfolio photoshop icons">
             <div class="wrapper">
               <a class="entry-media" href="https://radekkosiada.github.io/ReactionTester/TheGame.html" target="_blank"><img src="ReactionTesterGif.gif" alt="Portfolio Reaction Tester"></a>
               <div class="entry-desc">
                 <h3><a href="https://radekkosiada.github.io/ReactionTester/TheGame.html" target="_blank">Reaction Tester</a></h3> <span class="taxonomy"></span> </div>
             </div>
-          </article>
-          <!-- 5. Project -->
-          <article class="entry portfolio icons print-design">
-            <div class="wrapper">
-              <a class="entry-media"><img src="1.jpg" alt="Portfolio Entry # 5"></a>
-              <div class="entry-desc">
-                <h3>Music App</a></h3> <span class="taxonomy">coming soon</span> </div>
-            </div>
-          </article>
+          </article>          
+
           <!-- 6. Project -->
-          <article class="entry portfolio illustration icons">
+          <article class="entry portfolio photoshop print-design">
             <div class="wrapper">
-              <a class="entry-media"><img src="2.jpg" alt="Portfolio Entry # 6"></a>
+              <a class="entry-media"><img src="2.jpg" alt="Portfolio Entry"></a>
               <div class="entry-desc">
-                <h3>Another React Project</a></h3> <span class="taxonomy">in progress</span> </div>
+                <h3><a href="single-portfolio.html">
+                  Another React Project
+                </a></h3> <span class="taxonomy">in progress</span> </div>
             </div>
           </article>
 
-          <!-- 7. Project -->
-          <!-- <article class="entry portfolio photoshop print-design">
-            <div class="wrapper">
-              <a class="entry-media" href="single-portfolio.html"><img src="images/dist/portfolio/7.jpg" alt="Portfolio Entry # 7"></a>
-              <div class="entry-desc">
-                <h3><a href="single-portfolio.html">The Cloud</a></h3> <span class="taxonomy">photoshop, print design</span> </div>
-            </div>
-          </article> -->
+              <!-- 7. Project -->
+              <article class="entry portfolio icons print-design">
+                  <div class="wrapper">
+                    <a class="entry-media"><img src="1.jpg" alt="Portfolio Entry # 5"></a>
+                    <div class="entry-desc">
+                      <h3>Music App</a></h3> <span class="taxonomy">coming soon</span> </div>
+                  </div>
+                </article>
 
           <!-- <article class="entry portfolio photoshop print-design">
             <div class="wrapper">
