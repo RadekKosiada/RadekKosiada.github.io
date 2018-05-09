@@ -119,9 +119,9 @@
           <!-- 4. Project -->
           <article class="entry portfolio typography illustration">
             <div class="wrapper">
-              <a class="entry-media" href="https://radekkosiada.github.io/PingPongGame/PingPong.html" target="_blank"><img src="PingPongGif.gif" alt="Portfolio Ping Pong Game"></a>
+              <a class="entry-media" href="https://radekkosiada.github.io/PingPongGame/index.html" target="_blank"><img src="PingPongGif.gif" alt="Portfolio Ping Pong Game"></a>
               <div class="entry-desc">
-                <h3><a href="https://radekkosiada.github.io/PingPongGame/PingPong.html" target="_blank">Ping Pong Game</a></h3> <span class="taxonomy"></span> </div>
+                <h3><a href="https://radekkosiada.github.io/PingPongGame/index.html" target="_blank">Ping Pong Game</a></h3> <span class="taxonomy"></span> </div>
             </div>
           </article>
           <!-- 5. Project -->
