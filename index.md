@@ -91,6 +91,7 @@
       <section id="primary-content">
         <div id="portfolio-grid">
 	
+	<!-- PROJECTS -->
 	 <!-- 1. Project -->
           <article class="entry portfolio illustration icons">
               <div class="wrapper">
