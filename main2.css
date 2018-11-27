@@ -46,9 +46,13 @@ a:hover {
 
 #site-header{
     margin: 2vw;
-    font-size: 2vw;
+    font-size: 1.5vw;
+    font-weight: bold;
     /* margin-top:  */
 }
+/* .tagline, #greetings{
+    opacity: 0.75;
+} */
 #profile-pic{
     width: 15vw;
 }
@@ -81,6 +85,7 @@ ul li{
 
 #portfolio-grid{
     margin-top: 2vw;
+    margin-bottom: 2vw;
     display: grid;
     grid-template-columns: repeat(3, 25%);
     grid-column-gap: 8%;
@@ -94,7 +99,10 @@ ul li{
     text-align: center;
     padding: 1vw;
     background-color: rgba(255, 255, 255, 0.5);
+}
 
+.entry:hover{
+    box-shadow: 0.5vw 0.5vw 1vw grey;
 }
 
 .entry-media img{
@@ -103,12 +111,12 @@ ul li{
 }
 
 .entry-desc h3{
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin: 0;
 }
 
 .entry-desc p{
-    font-size: 1.5vw;
+    font-size: 1vw;
     margin: 0;
 }
 
