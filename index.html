@@ -18,10 +18,6 @@
     <!-- CSS Refrences
     ================================================== -->
     <!-- build:css styles/css/all.min.css -->
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="slicknav.min.css">
-    <link rel="stylesheet" href="slick.css">
-    <link rel="stylesheet" href="slick-theme.css">
     <link rel="stylesheet" href="main2.css" type="text/css" />
     <!-- endbuild -->
 </head>
@@ -33,47 +29,39 @@
         <!-- BEGIN: Global Sidebar -->
         <aside id="global-sidebar">
             <div id="site-header">
-                <img src="site-pic.jpg" id="profile-pic" />
-                <h3 id="greetings" class="bold">Hello there!</h3>
-                <p class="tagline">My name is Radek and this is an overview of my recent projects.<br><br>I am on a
-                    constant search for exciting challenges in web development as well as for new learning
-                    possibilities.
+                <img src="assets/avatar.jpg" id="profile-pic" />
+                <p class="tagline">Hello,<br>my name is Radek and this is an overview of some of my older projects.</p>
+                <p>I am on a constant search for exciting challenges in programming and for new learning possibilities.
+                </p>
+                <p>
 
                     <ul>
-                        <span id="skills" class="bold">Tech stack:</span>
+                        <span id="skills" class="">My tech stack is:</span>
                         <li>JavaScript</li>
-                        <li>jQuery</li>
+                        <li>TypeScript</li>
                         <li>React.js</li>
                         <li>Redux.js</li>
                         <li>Vue.js</li>
+                        <li>jQuery</li>
                         <li>D3.js</li>
-                        <br>
-                        <li>HTML 5</li>
-                        <li>CSS 3</li>
-                        <li>Sass</li>
-                        <li>Bootstrap</li>
                         <br>
                         <li>Node.js/Express.js</li>
                         <li>PostgreSQL</li>
                         <br>
-                        <span class="bold">Tools:</span>
-                        <li>Git</li>
-                        <li>Adobe Photoshop</li>
-                    </ul>
+                        <span class="">In my everyday practice I also use:</span>
+                        <li>Figma</li>
+                        <li>Adobe XD</li>
+                        <li>Postman</li>
 
-                    <div id="copyright"><span class="bold">Drop me a line!</span><br><a
-                            href="mailto:kosiadar@gmail.com">kosiadar@gmail.com</a></div>
-                    <ul class="social-icons">
-                        <div style="font-weight: bold">Or follow me on: </div>
-                        <!-- <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-                        <li class="linkedIn"><a href="https:linkedin.com/in/radoslawkosiada" target="_blank"><i
-                                    class="	fa fa-linkedin-square"></i></a></li>
-                        <li class="twitter"><a href="https://twitter.com/RadekKosiada" target="_blank"><i
-                                    class="fa fa-twitter-square"></i></a></li>
-                        <li class="git-hub"><a href="https://github.com/radekkosiada" target="_blank"><i
-                                    class="fa fa-github-square"></i></a></li>
                     </ul>
-
+                </p>
+                <p class="contact">
+                    <span>Please find me here:</span><br>
+                    <a href="https:linkedin.com/in/radoslawkosiada" target="_blank"><i
+                            class="fa fa-linkedin-square"></i></a>
+                    <a href="https://twitter.com/RadekKosiada" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                    <a href="https://github.com/radekkosiada" target="_blank"><i class="fa fa-github-square"></i></a>
+                </p>
             </div>
 
 
@@ -89,7 +77,7 @@
                     <div class="wrapper">
                         <div id="word-quiz"><a class="entry-media"
                                 href="https://radekkosiada.github.io/react-quiz-words/" target="_blank"><img
-                                    src="word-quiz.png" alt="screen shot of quiz-app"></a></div>
+                                    src="assets/word-quiz.png" alt="screen shot of quiz-app"></a></div>
                         <div class="entry-desc">
                             <a href="https://radekkosiada.github.io/react-quiz-words/" target="_blank">
                                 <h3>Association Quiz</h3>
@@ -102,8 +90,11 @@
                 <!-- 13. Project -->
                 <article class="entry portfolio photoshop print-design">
                     <div class="wrapper">
-                        <div id="projecttool"><a class="entry-media" href="https://online-workspace.herokuapp.com/"
-                                target="_blank"></a></div>
+                        <div id="projecttool">
+                            <a class="entry-media" href="https://online-workspace.herokuapp.com/" target="_blank">
+                                <img src="assets\projecttool.png">
+                            </a>
+                        </div>
                         <div class="entry-desc">
                             <a href="https://online-workspace.herokuapp.com/" target="_blank">
                                 <h3>Project management tool</h3>
@@ -115,7 +106,7 @@
                 <article class="entry portfolio photoshop print-design">
                     <div class="wrapper">
                         <a class="entry-media" href="https://radek-petition.herokuapp.com/" target="_blank"><img
-                                src="petition.png" alt="Portfolio Entry"></a>
+                                src="assets/petition.png" alt="Portfolio Entry"></a>
                         <div class="entry-desc">
                             <a href="https://radek-petition.herokuapp.com/" target="_blank">
                                 <h3>Petition</h3>
@@ -127,7 +118,7 @@
                 <article class="entry portfolio photoshop print-design">
                     <div class="wrapper">
                         <a class="entry-media" href="https://radekkosiada.github.io/connect-four/" target="_blank"><img
-                                src="Connect4.gif" alt="Portfolio Entry"></a>
+                                src="assets/Connect4.gif" alt="Portfolio Entry"></a>
                         <div class="entry-desc">
                             <a href="https://radekkosiada.github.io/connect-four/" target="_blank">
                                 <h3>Game 'Connect 4'</h3>
@@ -135,21 +126,12 @@
                             </a> <span class="taxonomy"></span></div>
                     </div>
                 </article>
-                <!-- 10. Project -->
-                <!-- 		  <article class="entry portfolio photoshop print-design">
-                    <div class="wrapper">
-                    <a class="entry-media" href="https://radekkosiada.github.io/search-bar/" target="_blank"><img src="search-bar.png" alt="Portfolio Entry"></a>
-                    <div class="entry-desc">
-                    <h3><a href="https://radekkosiada.github.io/search-bar/"  target="_blank">'Dummy' Ajax Search Box
-                </a></h3> <span class="taxonomy"></span></div>
-            </div>
-        </article> -->
 
                 <!-- 9. Project -->
                 <article class="entry portfolio photoshop print-design">
                     <div class="wrapper">
                         <a class="entry-media" href="https://radekkosiada.github.io/sticky-notes/" target="_blank"><img
-                                src="StickyNotes.gif" alt="Portfolio Entry"></a>
+                                src="assets/StickyNotes.gif" alt="Portfolio Entry"></a>
                         <div class="entry-desc">
                             <a href="https://radekkosiada.github.io/sticky-notes/" target="_blank">
                                 <h3>Sticky Notes App</h3>
@@ -157,92 +139,17 @@
                             </a> <span class="taxonomy"></span> </div>
                     </div>
                 </article>
-
-                <!-- 8. Project -->
-                <article class="entry portfolio photoshop print-design">
-                    <div class="wrapper">
-                        <a class="entry-media" href="https://radekkosiada.github.io/calendar/" target="_blank"><img
-                                src="Calendar.gif" alt="Portfolio Entry"></a>
-                        <div class="entry-desc">
-                            <h3><a href="https://radekkosiada.github.io/calendar/" target="_blank">The
-                                    'Click-dummy-JSON' Calendar
-                                </a></h3> <span class="taxonomy"></span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- 7. Project -->
-                <article class="entry portfolio illustration icons">
-                    <div class="wrapper">
-                        <a class="entry-media" href="https://radekkosiada.github.io/markdown/" target="_blank"><img
-                                src="Markdown.gif" alt="Portfolio React Markdown Viewer"></a>
-                        <div class="entry-desc">
-                            <h3><a href="https://radekkosiada.github.io/markdown/" target="_blank">React.js - Markdown
-                                    Viewer</a></h3> <span class="taxonomy"></span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- 5. Project -->
-                <article class="entry portfolio illustration icons">
-                    <div class="wrapper">
-                        <a class="entry-media" href="https://radekkosiada.github.io/text-generator/"
-                            target="_blank"><img src="TextGen.gif" alt="Portfolio React Project"></a>
-                        <div class="entry-desc">
-                            <h3><a href="https://radekkosiada.github.io/text-generator/">React.js 'S. Holmes' Text
-                                    Generator</a></h3> <span class="taxonomy"></span>
-                        </div>
-                    </div>
-                </article>
-
                 <!-- 4. Project -->
                 <article class="entry portfolio photoshop print-design">
                     <div class="wrapper">
                         <a class="entry-media" href="https://radekkosiada.github.io/weatherApp/" target="_blank"><img
-                                src="WeatherAppGif2.gif" alt="Portfolio Weather App"></a>
+                                src="assets/WeatherAppGif2.gif" alt="Portfolio Weather App"></a>
                         <div class="entry-desc">
                             <h3><a href="https://radekkosiada.github.io/weatherApp/" target="_blank">Current Weather
                                     App</a></h3> <span class="taxonomy"></span>
                         </div>
                     </div>
                 </article>
-
-                <!-- 3. Project -->
-                <article class="entry portfolio illustration icons">
-                    <div class="wrapper">
-                        <a class="entry-media" href="https://radekkosiada.github.io/QuoteMachine/QuoteMachine"
-                            target="_blank"><img src="QuoteMachineGif2.gif" alt="Portfolio Quote Machine"></a>
-                        <div class="entry-desc">
-                            <h3><a href="https://radekkosiada.github.io/QuoteMachine/QuoteMachine"
-                                    target="_blank">Random Quote Machine</a></h3> <span class="taxonomy"></span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- 2. Project -->
-                <article class="entry portfolio typography illustration">
-                    <div class="wrapper">
-                        <a class="entry-media" href="https://radekkosiada.github.io/PingPongGame/index.html"
-                            target="_blank"><img src="PingPongGif.gif" alt="Portfolio Ping Pong Game"></a>
-                        <div class="entry-desc">
-                            <h3><a href="https://radekkosiada.github.io/PingPongGame/index.html" target="_blank">Ping
-                                    Pong Game</a></h3> <span class="taxonomy"></span>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- 1. Project -->
-                <article class="entry portfolio photoshop icons">
-                    <div class="wrapper">
-                        <a class="entry-media" href="https://radekkosiada.github.io/ReactionTester/index.html"
-                            target="_blank"><img src="ReactionTesterGif.gif" alt="Portfolio Reaction Tester"></a>
-                        <div class="entry-desc">
-                            <h3><a href="https://radekkosiada.github.io/ReactionTester/index.html"
-                                    target="_blank">Reaction Game</a></h3> <span class="taxonomy"></span>
-                        </div>
-                    </div>
-                </article>
-
             </div>
 
         </section>
