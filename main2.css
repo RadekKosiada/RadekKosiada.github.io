@@ -42,31 +42,29 @@ a:hover {
 
 #site-header{
     margin: 2vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: bold;
     /* margin-top:  */
 }
-/* .tagline, #greetings{
-    opacity: 0.75;
-} */
+
 #profile-pic{
     width: 15vw;
 }
 .social-icons{
     padding: 0;
 }
-.social-icons li{
+.contact a {
     display: inline-block;
-    font-size: 4vw;
-    padding: 0.5vw;
-    transition-duration: 0.75s;
-    opacity: 0.5;
+    font-size: 2vw;
+    margin-right: 20px;
+ 
 }
 
-.social-icons li:hover{
+.social-icons ul li:hover{
     opacity: 1;
     transform: scale(1.1);
 }
+
 ul{
     padding: 0;
 }
